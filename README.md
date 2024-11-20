@@ -12,11 +12,10 @@ Este proyecto implementa y compara tres versiones diferentes del algoritmo de mu
 - Apache Maven 3.6 o superior
 
 ### Python (para análisis)
-- Python 3.8 o superior
+- Python 3.10
 - Bibliotecas especificadas en analysis/requirements.txt:
   - pandas
   - matplotlib
-  - seaborn
   - numpy
 
 ## Configuración y Ejecución
@@ -104,5 +103,5 @@ executor,2,1,5.678
 ## Notas
 
 - Los tiempos se miden usando java time Duration
-- Se realiza GC antes de cada prueba para minimizar efectos de la recolección de basura
+- Se realiza GC (Garbage collection) antes de cada prueba para minimizar efectos de la recolección de basura
 - Los resultados pueden variar según el hardware
